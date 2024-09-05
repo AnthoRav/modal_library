@@ -1,6 +1,6 @@
-# React Modal Library
+# Vite Modal Library
 
-**React Modal Library** est une bibliothèque de composants React simple et légère qui permet d'ajouter une modale personnalisable à vos projets React. Cette bibliothèque est construite avec **Vite** et est prête à être utilisée dans vos projets React.
+**Vite Modal Library** est une bibliothèque de composants React simple et légère qui permet d'ajouter une modale personnalisable à vos projets React. Cette bibliothèque est construite avec **Vite** et est prête à être utilisée dans vos projets React.
 
 ## Fonctionnalités
 
@@ -11,7 +11,7 @@
 ## Installation
 
 Vous pouvez installer cette bibliothèque via npm en exécutant la commande suivante dans votre terminal :
-'npm install react-modal-library'
+'npm install vite-modal-library'
 
 ## Props
 
@@ -42,4 +42,4 @@ Cette bibliothèque est sous licence MIT. Vous êtes libre de l'utiliser, de la 
 
 ---
 
-Merci d'avoir utilisé **React Modal Library** ! Si vous avez des questions ou des suggestions, n'hésitez pas à ouvrir un ticket sur le [répository GitHub](https://github.com/votre-utilisateur/react-modal-library).
+Merci d'avoir utilisé **Vite Modal Library** ! Si vous avez des questions ou des suggestions, n'hésitez pas à ouvrir un ticket sur le [répository GitHub](https://github.com/votre-utilisateur/react-modal-library).
