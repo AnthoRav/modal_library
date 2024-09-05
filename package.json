@@ -1,8 +1,8 @@
 {
-  "name": "react-modal-library",
+  "name": "vite-modal-library",
   "version": "1.0.0",
-  "main": "dist/react-modal-library.umd.js", 
-  "module": "dist/react-modal-library.es.js", 
+  "main": "dist/vite-modal-library.umd.js", 
+  "module": "dist/vite-modal-library.es.js", 
   "files": [
     "dist"
   ],
@@ -14,6 +14,6 @@
     "react-dom": "^18.0.0"
   },
   "keywords": ["react", "modal", "library", "vite"],
-  "author": "Votre Nom",
+  "author": "okthxby",
   "license": "MIT"
 }

@@ -8,7 +8,7 @@ export default defineConfig({
     lib: {
       entry: './src/components/Modal.jsx',
       name: 'ReactModalLibrary',
-      fileName: (format) => `react-modal-library.${format}.js`,
+      fileName: (format) => `vite-modal-library.${format}.js`,
     },
     rollupOptions: {
       // Assurez-vous d'externaliser React pour ne pas l'inclure dans le bundle
