@@ -3,8 +3,15 @@
   "version": "1.0.1",
   "main": "dist/vite-modal-library.umd.js",
   "module": "dist/vite-modal-library.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vite-modal-library.es.js",
+      "require": "./dist/vite-modal-library.umd.js"
+    }
+  },
   "files": [
-    "dist"
+    "dist",
+     "src/Modal.css"
   ],
   "scripts": {
     "build": "vite build"
