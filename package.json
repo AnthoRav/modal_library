@@ -11,7 +11,7 @@
   },
   "files": [
     "dist",
-    "dyst/style.css"
+    "dist/style.css"
   ],
   "scripts": {
     "build": "vite build"
