@@ -11,7 +11,7 @@
   },
   "files": [
     "dist",
-    "src/components/modal.css"
+    "dyst/style.css"
   ],
   "scripts": {
     "build": "vite build"
