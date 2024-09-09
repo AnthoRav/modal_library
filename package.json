@@ -7,7 +7,8 @@
     ".": {
       "import": "./dist/vite-modal-library.es.js",
       "require": "./dist/vite-modal-library.umd.js"
-    }
+    },
+    "./style.css": "./dist/style.css"
   },
   "files": [
     "dist",
