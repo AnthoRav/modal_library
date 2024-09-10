@@ -1,8 +1,12 @@
 {
   "name": "vite-modal-library",
   "version": "1.0.8",
-  "main": "dist/vite-modal-library.umd.js",
-  "module": "dist/vite-modal-library.es.js",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/vite-modal-library.umd.js",
+  "module": "./dist/vite-modal-library.es.js",
   "exports": {
     ".": {
       "import": "./dist/vite-modal-library.es.js",
@@ -10,10 +14,6 @@
     },
     "./style.css": "./dist/style.css"
   },
-  "files": [
-    "dist",
-    "dist/style.css"
-  ],
   "scripts": {
     "build": "vite build"
   },
@@ -28,5 +28,12 @@
     "vite"
   ],
   "author": "okthxby",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^22.5.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.3"
+  }
 }
