@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     lib: {
-      entry: 'src/Modal/Modal.jsx',
+      entry: './src/Modal/Modal.jsx',
       name: 'ViteModalLibrary',
       fileName: (format) => `vite-modal-library.${format}.js`,
     },
