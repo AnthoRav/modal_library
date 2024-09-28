@@ -1,45 +1,57 @@
 # Vite Modal Library
 
-**Vite Modal Library** est une bibliothèque de composants React simple et légère qui permet d'ajouter une modale personnalisable à vos projets React. Cette bibliothèque est construite avec **Vite** et est prête à être utilisée dans vos projets React.
+**Vite Modal Library** is a simple and lightweight React component library that allows you to add a customizable modal to your React projects. This library is built with **Vite** and is ready to be used in your React applications.
 
-## Fonctionnalités
+## Features
 
-- Afficher et fermer une modale avec des animations CSS simples.
-- Personnalisation du contenu de la modale à l'aide de props.
-- Facile à intégrer dans tout projet React.
+- Display and close a modal with simple CSS animations.
+- Customize modal content using props.
+- Easy integration into any React project.
 
 ## Installation
 
-Vous pouvez installer cette bibliothèque via npm en exécutant la commande suivante dans votre terminal :
-'npm install vite-modal-library'
+You can install this library via npm by running the following command in your terminal:
+```bash
+ npm install vite-modal-library
+```
+
+Import it into your project with: :
+```bash
+import Modal from 'vite-modal-library';
+```
+And the default CSS in the parent component with: 
+```bash
+import 'vite-modal-library/style.css'
+```
 
 ## Props
 
-Le composant `Modal` accepte les propriétés suivantes :
+The Modal component accepts the following properties:
 
 | Props       | Type       | Description                                                                 |
 |-------------|------------|-----------------------------------------------------------------------------|
-| `isOpen`    | `boolean`  | Contrôle l'affichage de la modale. `true` pour afficher, `false` pour cacher. |
-| `onClose`   | `function` | Fonction appelée lors de la fermeture de la modale (ex : bouton ou clic extérieur). |
-| `children`  | `node`     | Contenu à afficher dans la modale. Peut inclure du texte, des composants, etc. |
+| `isOpen`    | `boolean`  | Controls the visibility of the modal. true to show, false to hide. |
+| `onClose`   | `function` | Function called when the modal is closed (e.g., button or outside click). |
+| `children`  | `node`     | Content to display inside the modal. Can include text, components, etc. |
 
-## Style Personnalisé
+## Custom Styling
 
-Par défaut, la modale inclut un style simple, mais vous pouvez facilement personnaliser les styles en modifiant ou en remplaçant le fichier CSS inclus. Pour cela, vous pouvez éditer ou ajouter vos propres styles CSS afin d'adapter l'apparence à vos besoins spécifiques.
+By default, the modal includes simple styling, but you can easily customize the styles by editing or replacing the included CSS file. You can modify or add your own CSS to match the appearance to your specific needs.
 
-Par exemple, vous pouvez personnaliser le fond de la modale, les bordures, le padding, et d'autres propriétés visuelles.
+For example, you can customize the modal's background, borders, padding, and other visual properties.
 
-## Dépendances Requises
+## Required Dependencies
 
-Cette bibliothèque requiert les dépendances suivantes dans votre projet :
+This library requires the following dependencies in your project:
 
-- **React** (version 18.0.0 ou supérieure)
-- **ReactDOM** (version 18.0.0 ou supérieure)
+- **React** (version 18.0.0 or higher)
+- **ReactDOM** (version 18.0.0 or higher)
+- **Node** (version 18.0.0 or higher)
 
 ## Licence
 
-Cette bibliothèque est sous licence MIT. Vous êtes libre de l'utiliser, de la modifier et de la distribuer comme bon vous semble.
+This library is licensed under the MIT license. You are free to use, modify, and distribute it as you see fit.
 
 ---
 
-Merci d'avoir utilisé **Vite Modal Library** ! Si vous avez des questions ou des suggestions, n'hésitez pas à ouvrir un ticket sur le [répository GitHub](https://github.com/votre-utilisateur/react-modal-library).
+Thank you for using Vite Modal Library!
